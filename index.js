@@ -1,3 +1,5 @@
+const loaderUtils = require("loader-utils");
+
 module.exports = function(content) {
   var callback = this.async();
 
